@@ -1,0 +1,31 @@
+- Lần đầu tiên lấy code trên server về:
+git clone [url_đến_repository_trên_server]
+
+Ví dụ:
+git clone https://github.com/trunghongoc/REACTJS2003E-homework.git
+
+
+Từ lần thứ 2 muốn lấy code trên server về, thì dùng lệnh:
+git pull
+
+
+Các thao tác khi muốn push (đưa code lên server):
+Bước 1: Khai báo các file sẽ được push lên:
+git add [đường_dẫn_đến_file]
+Hoặc:
+git add [đường_dẫn_đến_folder]
+Hoặc (lấy tất cả):
+git add .
+
+
+Bước 2: Tạo ghi chú cho việc mình vừa làm, để người khác biết mình làm gì
+git commit -m "Nội dung ghi chú"
+
+
+Bước 3: push code lên server
+git push origin [tên_nhánh]
+
+
+
+
+
